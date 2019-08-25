@@ -1,6 +1,6 @@
 /**
  * @author tantexian
- * @since 2018/9/22$
+ * @since 2018/9/22
  */
 public class CycleArray {
 

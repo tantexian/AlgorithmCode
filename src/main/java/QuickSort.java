@@ -1,6 +1,6 @@
 /**
  * @author tantexian
- * @since 2018/9/19$
+ * @since 2018/9/19
  */
 public class QuickSort {
     static void quickSort(int[] a, int left, int right) {

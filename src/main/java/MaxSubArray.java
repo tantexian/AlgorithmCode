@@ -1,6 +1,6 @@
 /**
  * @author tantexian
- * @since 2018/9/21$
+ * @since 2018/9/21
  */
 public class MaxSubArray {
 
