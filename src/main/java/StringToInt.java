@@ -5,8 +5,9 @@
 public class StringToInt {
 
     public static void main(String[] args) {
-        String numString = "1314521000xx";
+        String numString = "5201314";
         System.out.println(stringToInt(numString));
+        System.out.println(stringToInt2(numString));
 
     }
 
@@ -27,5 +28,16 @@ public class StringToInt {
             return c - '0';
         }
         throw new RuntimeException("字符串中含有非数字字符，请检查...");
+    }
+
+    private static int stringToInt2(String numString) {
+        int result = 0;
+        for (int i = 0; i < numString.length(); i++) {
+            char c = numString.charAt(i);
+            final int num = transform2Num(c);
+            result = 10 * result + num;
+
+        }
+        return result;
     }
 }
